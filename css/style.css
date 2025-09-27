@@ -1,0 +1,116 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  padding: 0.75rem 1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* ===== Buttons ===== */
+.btn-primary, .btn-success {
+  border-radius: 30px;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+}
+
+/* ===== Forms ===== */
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+form .form-label {
+  font-weight: 500;
+}
+
+form .btn {
+  margin-top: 1rem;
+}
+
+/* ===== Menu Cards (index page) ===== */
+#menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+}
+
+.food-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.food-card-body {
+  padding: 1rem;
+}
+
+.food-card-body h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.food-card-body .price {
+  color: #28a745;
+  font-weight: 600;
+}
+
+/* ===== Cart Table ===== */
+#cart-items td {
+  vertical-align: middle;
+}
+
+#cart-total {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* ===== Checkout Page ===== */
+#checkout-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}

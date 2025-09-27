@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Margherita Pizza", "price": 199, "image": "images/pizza.jpg", "category": "Pizza" },
+  { "id": 2, "name": "Veg Burger", "price": 99, "image": "images/burger.jpg", "category": "Burger" },
+  { "id": 3, "name": "Paneer Wrap", "price": 149, "image": "images/wrap.jpg", "category": "Wrap" },
+  { "id": 4, "name": "Chocolate Shake", "price": 79, "image": "images/shake.jpg", "category": "Shake" }
+]
